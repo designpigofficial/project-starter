@@ -8,7 +8,11 @@ import Container from '@/components/Container';
 import MobileNav from '@/components/layout/MobileNav';
 import NavLink from '@/components/layout/NavLink';
 import Logo from '@/components/Logo';
-import { HiBriefcase, HiHome, HiOutlineInformationCircle } from 'react-icons/hi';
+import {
+  HiBriefcase,
+  HiHome,
+  HiOutlineInformationCircle,
+} from 'react-icons/hi';
 
 export type NavLinksType = {
   label: string;
@@ -20,7 +24,6 @@ const links: NavLinksType = [
   { label: 'About', href: '/about', icon: HiHome },
   { label: 'Services', href: '/services', icon: HiOutlineInformationCircle },
   { label: 'Projects', href: '/projects', icon: HiBriefcase },
-  { label: 'Blog', href: '/blog', icon: HiBriefcase },
   { label: 'Contact', href: '/contact', icon: HiBriefcase },
 ];
 
